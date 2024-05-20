@@ -30,18 +30,19 @@ set_11 = {"apple", "microsoft"}
 set_12 = set_10.difference(set_11)
 print(set_12)
 
+from function import first_function
 #python frozenset()
 # A frozenset is an unorderd and uninxed collection of unique elements.
 #It is a immultable.it is also called an immutable set.
 # since the elements are fixed,unlike sets you can't add or remove elements
-
 fruits = {"Apple", "Banana", "cherry", "Apple", "kiwi"}
 basket = frozenset(fruits)
 print("unique elements:", basket)
 #add new fruit throws an error!
-basket.add("orange")
+#basket.add("orange")
 print("after adding new elements:", basket)
 city = {"npj", "klp", "Basghdi", "ppt"}
 city_1 =  frozenset(city)
 print(city_1.union(basket))
-
+result = first_function()
+print(result)
