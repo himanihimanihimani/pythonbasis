@@ -8,5 +8,5 @@ print(result)
 
 def addition(num_1,num_2):#num1 and num2 are parameters
   return  num_1+num_2# adding the parameters
-a = addition(num_1=2,num_2=3)
+a = addition(num_1=2,num_2=3) 
 print(a)
